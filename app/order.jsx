@@ -136,7 +136,7 @@ export default function Order(){
                 </View>
                 
                 <View style={{ width: "100%"}}>
-                    <CustomButton disable={!canBuy} onPress={()=>route({address: "Jl. Kpg Sutoyo"})} content="Order" /> 
+                    <CustomButton disable={!canBuy} pStyle={{backgroundColor: canBuy ? "#c67c4e" : "#c67c4e9f"}} onPress={()=>route({address: "Jl. Kpg Sutoyo"})} content="Order" /> 
                 </View>
                 
             </View></View>}
