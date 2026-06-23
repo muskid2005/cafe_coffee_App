@@ -156,6 +156,5 @@ export default function Order(){
 }
 
 
-// onpress={()=>route({id: 1, price: "$ 4.53", ratings: "4.8", name: "Caffe Mocha", subName: "Deep Foam", halfDes: descriptions.mocha.half, fullDes: descriptions.mocha.full })}
 
 
